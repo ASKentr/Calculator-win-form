@@ -36,13 +36,14 @@ namespace Calc0._2
                     c = a * b;
                     break;
                 case '/':
-                    c = a / b;
                     if (b == 0)
                     {
                         MessageBox.Show("я не умею делить на ноль =(");
                         textBox1.Text = "ќшибка";
                     }
                     break;
+                    c = a / b;
+                    
             }
             textBox1.Text = c.ToString();
             
