@@ -40,9 +40,10 @@ namespace Calc0._2
                     {
                         MessageBox.Show("я не умею делить на ноль =(");
                         textBox1.Text = "ќшибка";
+                        break;
                     }
-                    break;
                     c = a / b;
+                    break;
                     
             }
             textBox1.Text = c.ToString();
